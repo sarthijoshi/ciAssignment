@@ -1,0 +1,66 @@
+
+.header {
+    background-color: whitesmoke;
+    float: left;
+    padding: 1%;
+    width: 100%;
+}
+
+.footer{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+}
+
+div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.grid-view {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    height: 100px;
+    margin-left: -168px;
+    min-height: 50px;
+    padding: 1%;
+    width: 100px;
+}
+
+ul.nav-bar {
+    float: left;
+    list-style: outside none none;
+    margin: 1% 0;
+    width: 35%;
+}
+
+ul.nav-bar li {
+    background-color: mintcream;
+    float: left;
+    font-size: 23px;
+    line-height: 25px;
+    margin-left: 12%;
+    margin-top: 25px;
+    padding: 0 1%;
+}
+
+ul.nav-bar li :first-child{
+    margin-left: 0px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.active{
+    background-color: powderblue;
+}
+.nav-bar a{text-decoration: none;}
